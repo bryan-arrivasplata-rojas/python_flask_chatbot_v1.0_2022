@@ -1,0 +1,58 @@
+{"intents": [
+    {"tag": "saludo",
+     "patterns": ["Hola", "Como estas?", "Hay alguien ahi?", "Oye", "Buen dia","Hey","ola"],
+     "responses": ["Bienvenido, que puedo hacer por ti", "Es bueno verte de nuevo", "Hola, en que puedo ayudar?"],
+     "context": [""]
+    },
+    {"tag": "adios",
+     "patterns": ["Adios", "Hasta la proxima", "Encantado de charlar contigo, adios", "Hasta la proxima","Xiao","Nos vemos"],
+     "responses": ["Nos vemos!", "Que tengas un buen dia", "Adios! Vuelve pronto"],
+     "context": [""]
+    },
+    {"tag": "gracias",
+     "patterns": ["Gracias","Eso es util", "Genial, gracias", "Gracias por ayudarme","Te lo agradezco","Muchas gracias"],
+     "responses": ["Feliz de ayudar!", "En cualquier momento!", "Es un placer"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Lo siento, no puedo entenderte", "Por favor, dame mas informacion", "No estoy seguro de entenderlo"],
+     "context": [""]
+    },
+    {"tag": "opciones",
+     "patterns": ["Como podrias ayudarme?", "Que puedes hacer?", "Que ayuda me brindas?", "Como puedes ayudarme?", "Que apoyo se ofrece?","Ayudame","Que haces?"],
+     "responses": ["Puedo guiarte a travez de las necesidades que tengas como estudiante CEPRE-UNI en saber notas,promedio,merito,ubicacion cepre,informacion de cepre y registro de pre-matricula","Ofresco apoyo para estudiante de CEPRE-UNI en saber notas,promedio,merito,ubicacion cepre,informacion y registro de pre-matricula"],
+     "context": [""]
+    },
+    {"tag": "alumno_notas",
+     "patterns": ["Cuales son mis notas?","quiero ver mis notas","muestame mis notas"],
+     "responses": ["Navegando al modulo de alumno CEPRE-UNI \n Indicame tu codigo de estudiante"],
+     "context": [""]
+    },
+    {"tag": "alumno_ordenmerito",
+        "patterns": ["Cual es mi orden de merito?","Que posicion me encuentro","Que puesto estoy"],
+        "responses": ["Navegando al modulo de alumno CEPRE-UNI ..... Indicame tu codigo de estudiante"],
+        "context": [""]
+    },
+    {"tag": "alumno_promedio",
+        "patterns": ["Cual es mi promedio?","Que promedio tengo","Quiero ver mi promedio"],
+        "responses": ["Navegando al modulo de alumno CEPRE-UNI ..... Indicame tu codigo de estudiante"],
+        "context": [""]
+    },
+    {"tag": "Cepre_search",
+     "patterns": ["Donde esta la cepre", "Sabes donde esta la cepre", "Quiero saber donde queda la cepre", "Dime donde encuentro la cepre"],
+     "responses": ["Sede UNI: Av Tupac Amaru, Rimac ..... Sede Magdalena: Av Javier Prado Oeste N.730, Magdalena del Mar 15076"],
+     "context": [""]
+    },
+    {"tag": "Cepre_info",
+     "patterns": ["Quiero informacion sobre la cepre","que informacion tienen","enviame informacion de la cepre"],
+     "responses": ["Toda la informacion correspondiente encontrara en el siguiente enlace: https://cepreuni.net.pe/#/pre"],
+     "context": [""]
+    },
+    {"tag": "Cepre_reserva",
+     "patterns": ["Quiero reservar matricula","me quiero matricular","guardame una matricula"],
+     "responses": ["Navegando al modulo de reserva de matricula ..... Indicame tu nombre completo (enter) tu dni (enter) tu celular"],
+     "context": [""]
+    }
+]
+}
