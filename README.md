@@ -1,4 +1,4 @@
-# python_v3.9.7_chatbot_v1.0_2022
+# chatbot_python_v3.9.7_v1.0_2022
 ChatBot para los estudiantes de CepreUni
 
 # Identificar el nombre del proyecto
